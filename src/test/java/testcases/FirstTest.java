@@ -14,6 +14,6 @@ public class FirstTest {
         options.addArguments("--remote-allow-origins=*");
 
         ChromeDriver driver = new ChromeDriver(options);
-        driver.get("https://google.com");
+        driver.get("https://google.com.com");
     }
 }
